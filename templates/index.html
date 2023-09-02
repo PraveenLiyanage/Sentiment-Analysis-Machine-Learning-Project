@@ -1,17 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylrsheet" href="{{url_for('static', filename='css/main.css')}}"></link>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>App</title>
+    
 </head>
+<body>
 <div class="split left">
     <div class="centered">
         <img src="../static/products/project img 3.jpg" alt="">
     </div>
 </div>
-
 
 <div class="split right">
     <div class="container mt-5 mb-5">
@@ -30,22 +32,20 @@
                     </form>
                 </div>
 
-                <div class="coment-bottom bg-white p-2 px-4">
+                <div class="comment-bottom bg-white p-2 px-4">
                     {% for review in data.reviews %}
                     <hr/>
-                      <div
-                          class="commented-section mt-2">
-                          <div class="d-flex flex-row align-items-center commented-user">
-                              </div>
-                              <div class="text-nowrap bd-highlight"><span>{{ review }}</span></div>
-                              <hr/>
+                    <div class="commented-section mt-2">
+                        <div class="d-flex flex-row align-items-center commented-user">
+                        </div>
+                        <div class="text-nowrap bd-highlight"><span>{{ review }}</span></div>
+                        <hr/>
+                    </div>
                     {% endfor %}
-                  </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
 </body>
 </html>
