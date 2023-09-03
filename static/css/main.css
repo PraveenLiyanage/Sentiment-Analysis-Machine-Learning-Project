@@ -106,3 +106,24 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+
+.comment-bottom {
+  background-color: #f9f9f9; /* Change to your desired background color */
+  padding: 20px; /* Adjust padding as needed */
+  margin: 10px 0; /* Adjust margins as needed */
+  border: 1px solid #ccc; /* Add borders if desired */
+  border-radius: 5px; /* Add border radius if desired */
+}
+
+.commented-section {
+  /* Add additional styles for the individual commented sections */
+}
+
+.commented-user {
+  /* Add styles for user information if needed */
+}
+
+/* Additional styles for text, hr, or other elements within the section can be added here. */
+
+
+
