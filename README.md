@@ -33,7 +33,7 @@ This Sentiment Analysis project is designed to analyze user comments and classif
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.11
 - Libraries: NumPy, Pandas, Scikit-Learn, NLTK (for text preprocessing)
 
 ## Usage
